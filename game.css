@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-image: url("https://img.freepik.com/premium-photo/ethereal-enchantment-vibrant-forest-assets-unveiled-rayman-legendsinspired-concept-art-with_983420-16185.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #Graphic{
+    /* background-color: #F6D6D6; */
+    /* background-image: url("https://img.freepik.com/premium-photo/ethereal-enchantment-vibrant-forest-assets-unveiled-rayman-legendsinspired-concept-art-with_983420-16185.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* opacity: 0.9; */
+
+/* }  */
+
+
+/* @media (max-width: 480px) {
+    canvas {
+        width: 100%;  
+        height: auto; 
+    }
+} */
+
+/* For medium-sized devices (e.g., tablets, small laptops) */
+/* @media (min-width: 481px) and (max-width: 768px) {
+    canvas {
+        width: 80%;  
+        height: auto;
+    }
+} */
+
+/* For large screens (e.g., desktops) */
+/* @media (min-width: 769px) {
+    canvas {
+        width: 60%; 
+        height: auto; 
+    }
+} */
+
+#graphic{
+    height: 80vh;
+    width: 80vw;
+}
+
+@media (max-width: 768px) {
+    #Graphic {
+        width: 90vw; /* Canvas width is 90% of the viewport width */
+        height: 70vh; /* Canvas height is 70% of the viewport height */
+    }
+}
+
+/* For smaller screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+    #Graphic {
+        width: 95vw; /* Canvas width is 95% of the viewport width */
+        height: 60vh; /* Canvas height is 60% of the viewport height */
+    }
+}
+
+/* For very small screens (e.g., very small mobile devices) */
+@media (max-width: 320px) {
+    #Graphic {
+        width: 100vw; /* Canvas width is 100% of the viewport width */
+        height: 50vh; /* Canvas height is 50% of the viewport height */
+    }
+}
