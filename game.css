@@ -20,8 +20,8 @@ body{
 /* For smaller screens (e.g., mobile devices) */
 @media (max-width: 480px) {
     #Graphic {
-        width: 95vw;
-        height: 90vh; 
+        width: 100vw;
+        height: 100vh; 
     }
 }
 
