@@ -56,7 +56,7 @@ window.onload = function() {
 
     requestAnimationFrame(update)
 
-    setInterval(treePlaces,1500);
+    setInterval(treePlaces,2000);
 
     document.addEventListener("keydown",moveBird)
 
