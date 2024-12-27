@@ -29,6 +29,6 @@ body{
 @media (max-width: 320px) {
     #Graphic {
         width: 100vw; 
-        height: 50vh; 
+        height: 100vh; 
     }
 }
