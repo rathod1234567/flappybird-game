@@ -37,7 +37,8 @@ window.onload = function() {
     graphic.width = graphicWidth;
     context = graphic.getContext("2d"); //used for drawing context on the board //
 
-    //draw flappy bird
+    //draw flappy bird //
+    
     // context.fillStyle = "red";
     // context.fillRect(bird.x, bird.y, bird.width, bird.height);
     birdImg =new Image();
@@ -70,7 +71,7 @@ window.onload = function() {
 function playBackgroundMusic() {
     // Only start music if it's not already playing
     if (!music || music.paused) {
-        music = new Audio('./Music/8-bit-game-158815.mp3'); // Replace with your file path
+        music = new Audio('./Music/8-bit-game-158815.mp3');
         music.loop = true;  // Loop the music
         music.play();
     }
@@ -97,8 +98,8 @@ function update(){
     }
 
     context.clearRect(0,0,graphic.width,graphic.height);
+    
     //bird  movement//
-
     velocityY += gravity;
     bird.y =Math.max(bird.y + velocityY ,0)  // gravityapplied to current bird.y and 0 is the top most height for the bird
  
