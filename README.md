@@ -1,4 +1,4 @@
-                                                  Flapp Bird Game
+                                                  Flappy Bird Game
  Game Setup:
 
 A canvas is created where the game is displayed.
