@@ -1,29 +1,18 @@
 
-
-
-body{
+body {
     margin: 0;
-}
-
-
-
-
-#log{
+  }
+  #log {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     height: 100vh;
-    /* background-image: url("images.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
-
-    
-    
-
-    
-}
-#form2{
+    background-image: url("images.jpg");
+    background-repeat: repeat;
+    /* background-size: cover; */
+  }
+  
+  #form2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,23 +26,103 @@ body{
     background-size: cover;
     border-radius: 50px;
     opacity: 0.9;
-}
-input{
+  }
+  
+  input {
     padding: 10px;
     border-radius: 15px;
     text-align: center;
-    opacity: 0.;
-    
-}
-button{
+    opacity: 0.8;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  button {
     padding: 10px;
     border-radius: 15px;
     background-color: orange;
-}
-.c1{
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .c1 {
     font-size: 28px;
     font-weight: bold;
-    color:yellow;
-    
+    color:red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* For screens smaller than 600px */
 
-}
+  @media screen and (max-width: 600px) {
+    #log {
+      padding: 10px;
+    }
+  
+    #form2 {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .c1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    input {
+      font-size: 10px;
+      padding: 8px;
+      width: 100%;
+    }
+    button{
+        width: 60px;
+    }
+  }
+  
+  /* For screens between 600px and 900px */
+
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+    #form2 {
+      width: 80%;
+      height: auto;
+      padding: 25px;
+    }
+  
+    .c1 {
+      font-size: 26px;
+    }
+  
+    input {
+      font-size: 12px;
+      padding: 10px;
+    }
+    button{
+        width: 70px;
+    }
+  }
+  
+  /* For screens larger than 900px */
+  
+  @media screen and (min-width: 900px) {
+    #form2 {
+      width: 400px;
+      height: 400px;
+      padding: 30px;
+    }
+  
+    .c1 {
+      font-size: 28px;
+    }
+  
+    input {
+      font-size: 14px;
+      padding: 10px;
+      width: 100%;
+    }
+    button{
+        width: 80px;
+    }
+  }
+  
