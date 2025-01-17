@@ -1,0 +1,59 @@
+
+
+
+body{
+    margin: 0;
+}
+
+
+
+
+#log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 100vh;
+    /* background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    
+    
+
+    
+}
+#form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    gap: 10px;
+    background-image: url("https://png.pngtree.com/png-vector/20240506/ourmid/pngtree-cute-little-blue-bird-cartoon-character-png-image_12370320.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+input{
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0.;
+    
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: orange;
+}
+.c1{
+    font-size: 28px;
+    font-weight: bold;
+    color:yellow;
+    
+
+}
