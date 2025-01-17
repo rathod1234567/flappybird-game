@@ -37,7 +37,7 @@ function login() {
   ) {
     // alert("Yay!!! You are logged in successfully");
     localStorage.setItem("isLogged", true);
-    window.location.href = "../index.html";
+    window.location.href = "./index.html";
     alert("Yay!!! You are logged in successfully");
   } else {
     alert("Oops!!! Invalid data, please enter valid data");
