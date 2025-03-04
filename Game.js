@@ -24,9 +24,9 @@ let bird = {
 // context.drawImage(birdImg,bird.x,bird.y,bird.height,bird.width)
 // }
 
-// Music control variables
-let music; // Variable to store background music
-let gameOverMusic; // Variable to store game over music
+// Music control variables //
+let music; 
+let gameOverMusic; 
 
 
 
@@ -43,7 +43,7 @@ window.onload = function() {
     // context.fillRect(bird.x, bird.y, bird.width, bird.height);
     birdImg =new Image();
     birdImg.src="./images/bird.png";
-    birdImg.onload =function(){  //// Code to be executed when the page is fully loaded
+    birdImg.onload =function(){   //// Code to be executed when the page is fully loaded
     context.drawImage(birdImg,bird.x,bird.y,bird.height,bird.width)
     }
 
